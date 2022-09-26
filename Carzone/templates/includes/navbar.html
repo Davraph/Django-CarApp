@@ -26,12 +26,12 @@
                     <li class="nav-item">
 
                         <a 
-                        {% if 'cars' == request.path %}
+                        {% if 'cars' in request.path %}
                         class="nav-link active" 
                         {% else %}
                         class="nav-link"
                         {% endif %}
-                        href="cars.html">
+                        href="{% url 'cars' %}">
                             Cars
                         </a>
                     </li>
