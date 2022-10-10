@@ -1,6 +1,7 @@
 # Django-CarApp
 
-FRONTEND PAGES
+FRONTEND PAGES![Screen Shot 2022-10-10 at 6 02 18 AM](https://user-images.githubusercontent.com/98242760/194797784-285fdacc-8f27-4954-884b-7d4db2b4e253.png)
+
 
 	•	Home
 	•	About
