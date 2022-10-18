@@ -16,11 +16,11 @@ def home(request):
 
 def about(request):
     teams = Team.objects.all()
-    
+
 
     context = {
         'teams':teams,
-       
+
     }
 
     return render(request, 'pages/about.html', context)
